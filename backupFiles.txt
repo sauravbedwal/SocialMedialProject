@@ -1,0 +1,2530 @@
+// style.css
+
+.container {
+    background-color: #FFFFFF;
+    /* background-color: #bd5959; */
+    /* width: 40%; */
+    /* margin: auto; */
+    /* width: 375px; */
+    /* height: 812px; */
+
+}
+
+.background {
+    height: 432.84px;
+    width: 375px;
+    background: url("F:\Coding PROJECT\Tech Ocenaic Technologies Project\SocialMediaApp\my-app\src\images\onboardImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .image-border{
+width: 388.29px;
+    height: 460.86px;
+    top: -21.36px;
+    left: -11.64px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+} */
+
+.onboarding-heading {
+    width: 317px;
+    height: 112px;
+    margin: auto;
+    /* top: 469px; */
+    /* left: 29px; */
+    gap: 0px;
+    opacity: 0px;
+}
+
+.onboarding-heading>h1 {
+    /* font-family: Poppins; */
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+
+.onboarding-paragraph {
+    width: 291px;
+    height: 48px;
+    top: 591px;
+    left: 42px;
+    gap: 0px;
+    opacity: 0px;
+    margin: auto;
+}
+
+.onboarding-paragraph>p {
+    /* font-family: Poppins; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #919191;
+}
+
+/* .slider{
+    margin: auto;
+    width: 8px;
+        height: 5px;
+        top: 677px;
+        left: 203px;
+        gap: 0px;
+        opacity: 0.25px;
+        color:#020101;
+} */
+
+.btn {
+    width: 325px;
+    height: 58px;
+    border: 0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 2px;
+    margin: 10px 0;
+    margin-left: 25px; 
+    background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.Button-back {
+    width: 25px;
+    height: 25px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+    box-shadow: 0px 4px 14px 0px #28CD5630;
+    padding: 4px;
+    margin: 32px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    width: 40px;
+    height: 20px;
+    /* top: 45px;
+left: 39px; */
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+}
+
+.signInHeading {
+    width: 246px;
+    height: 60px;
+    top: 108px;
+    left: 65px;
+    gap: 0px;
+    opacity: 0px;
+    margin: auto;
+}
+
+.signInHeading>h1 {
+    /* margin-top: 80px; */
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+}
+
+.signInHeading>p {
+    margin-top: -25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.signInForm {
+    margin: 60px 0;
+    width: 325.34px;
+    height: 193px;
+    /* top: 230px;
+        left: 24.66px; */
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 18px;
+}
+
+.signInInput1 {
+    width: 325px;
+    height: 69px;
+    /* top: 230px;
+left: 25px; */
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid #4DD969;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.signInInput2 {
+    margin-top: 10px;
+    width: 325px;
+    height: 69px;
+    /* top: 317px;
+left: 25px;
+gap: 0px;
+border: 1px 0px 0px 0px; */
+    border-radius: 8px;
+    opacity: 0px;
+    padding-left: 10px;
+    border: 1px solid #EEEEEE;
+}
+
+.signInForm>h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #37d25e;
+    text-decoration: underline;
+}
+
+
+.p-signIn {
+    color: #DDDDDD;
+    margin: 0 5%;
+}
+
+.para-signIn {
+    display: inline;
+    color: #818181;
+    font-weight: 500;
+    font-size: small;
+}
+
+.secondary-btn {
+    margin: 15px 0;
+    width: 100%;
+}
+
+.white-btn {
+    color: #231D25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* width: 325px;
+    height: 58px; */
+    width: 90%;
+        /* height: 58px; */
+        height: 9vh;
+        margin: 0 19px;
+    opacity: 0px;
+    border: 0;
+    border-radius: 5px;
+    color: black;
+    padding: 2px;
+    margin: auto;
+    border: 1px solid #EEEEEE;
+}
+
+.p-signUp {
+    color: #818181;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 5% 20%;
+}
+
+.p-signUp > a {
+    color: #37d25e;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.menuProfile {
+    width: 24vw;
+    height: 16vh;
+    /* border-bottom: 1px solid #EEEEEE; */
+    margin: auto;
+    /* margin: 25px 19px; */
+    display: flex;
+    align-items: center;
+
+}
+
+.menuAvatar {
+    width: 4.1vw;
+    height: 9vh;
+    /* border: 1px solid goldenrod; */
+}
+
+
+.menuAvatarImageBorder {
+    width: 3.85vw;
+    height: 8vh;
+    border: 2px solid #28CD56;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuAvatarImage {
+    width: 3.3vw;
+    height: 6.9vh;
+    margin: auto;
+    background: url("F:\Coding PROJECT\Tech Ocenaic Technologies Project\SocialMediaApp\my-app\src\images\menuImageAvatar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .menuName{
+    margin-top: -30px;
+    width: 150px;
+    width: ;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+        border: 1px solid black;
+} */
+
+.menuName > h1 {
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.menuName > p {
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #919191;
+    margin-top: -12px;
+}
+
+.menubutton {
+    width: 2.4vw;
+    height: 5vh;
+    /* border: 1px solid yellow; */
+    margin-left: 150px;
+}
+
+.menubuttonBorder {
+    width: 2.3vw;
+    height: 4.8vh;
+    border: 1px solid #EEEEEE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #919191;
+}
+
+.menuStats {
+    width: 24vw;
+    height: 12.5vh;
+    /* border: 1px solid black; */
+    margin: 25px 22px;
+    display: flex;
+    align-items: center;
+}
+
+.menuStatsPost {
+    width: 6.5vw;
+    height: 12.5vh;
+    /* border: 1px solid green; */
+    margin: 0 11px;
+
+}
+
+.menuStatsPostBorder {
+    width: 6.4vw;
+    height: 12.4vh;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #EEEEEE;
+
+}
+
+.menuSection {
+    border-bottom: 1px solid #EEEEEE;
+    width: 100%;
+}
+
+.menuOptions {
+    margin: 25px 19px;
+    width: 24vw;
+    height: 10vh;
+    /* border: 1px solid #EEEEEE; */
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    text-align: left;
+    align-items: center;
+}
+
+
+.menuOptionLeft>span {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    color: #1D1D20;
+    /* border: 1px solid blue; */
+}
+
+.menuOptionLeft>p {
+    /* border: 1px solid blue; */
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: -1px;
+    color: #919191;
+    
+}
+
+
+
+
+
+/* .menuTotal {
+    width: 1.6vw;
+        height: 3.5vh;
+    border: 1px solid yellow;
+    margin-left: 20%;
+} */
+
+.menuTotalBorder {
+    width: 1.6vw;
+    height: 3.5vh;
+    background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+    box-shadow: 0px 5px 8px 0px #28CD5629;
+    border: 1px solid #28CD56;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 290%;
+}
+
+.menuTotalBorder>p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: white;
+}
+
+.white-logoutbtn {
+    background-color: #C9FFD5;
+    width: 90%;
+    /* height: 58px; */
+    height: 9vh;
+        margin: 0 19px;
+    opacity: 0px;
+    border: 0;
+    border-radius: 5px;
+    color: black;
+    padding: 2px;
+    border: 1px solid #28CD56;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-bottom: 20px;
+    color: #28CD56;
+}
+
+
+/* .followersMenuName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+} */
+
+.followersMenuName > h1 {
+    /* border: 1px solid black; */
+    margin: 70%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+
+}
+
+.followersMenuProfile {
+    width: 24vw;
+    height: 16vh;
+    /* border-bottom: 1px solid #EEEEEE; */
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+
+}
+
+
+.followersButton-back {
+    width: 25px;
+    height: 25px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+    box-shadow: 0px 4px 14px 0px #28CD5630;
+    padding: 10px;
+    margin: 25% 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.followersMenuOptions {
+    /* margin: 10px 5px; */
+    /* width: 24vw; */
+    /* height: 10vh; */
+    /* border: 1px solid #EEEEEE; */
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    text-align: left;
+    align-items: center;
+}
+
+
+.followersMenuAvatar {
+    width: 4.1vw;
+    height: 9vh;
+    /* border: 1px solid goldenrod; */
+}
+
+.followersMenuAvatarImage {
+    width: 3.3vw;
+    height: 6.9vh;
+    margin: auto;
+    background: url("F:\Coding PROJECT\Tech Ocenaic Technologies Project\SocialMediaApp\my-app\src\images\followersSrkImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.followersMenubuttonBorder {
+    width: 6vw;
+    height: 5vh;
+    background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+    box-shadow: 0px 5px 8px 0px #28CD5629;
+    border: 1px solid #28CD56;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.followersMenuTotalBorder>p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: white;
+}
+
+/* .followersMenubutton {
+    width: 2.4vw;
+    height: 5vh;
+    border: 1px solid yellow;
+    margin-left: 120px;
+} */
+
+.followersMenubuttonBorder {
+      width: 6vw;
+        height: 5vh;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 8px 0px #eeeeeeec;
+    border: 1px solid #EEEEEE;
+        border-radius: 20px;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+
+}
+
+.followersMenubuttonBorder > p{
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 18px;
+ color: #919191;
+}
+
+.online-icon {
+    margin: 8%;
+    margin-top: 15px;
+    width: 14px;
+        height: 14px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        color: #0F9804;
+
+}
+
+.chatMenubutton {
+    width: 2.4vw;
+    height: 5vh;
+    /* border: 1px solid yellow; */
+    margin-left: 130px;
+}
+
+.chatMenubuttonBorder {
+    width: 3vw;
+    height: 6vh;
+    border: 1px solid #EEEEEE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E8FDED;
+    color: #4DD969;
+}
+
+
+.chatFollowersMenuName > div {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.chatFollowersMenuName > p {
+    margin-top: 0.1em;
+    width: 15vw;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+
+.chatFollowersMenuName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 -80px;
+margin-top: 30px;
+}
+
+.chatFollowersMenuName>h1 {
+    /* border: 1px solid black; */
+    /* margin: 60%; */
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.chatOwner {
+    margin: 0 4px;
+        margin-top: 40px;
+        /* width: 275px; */
+            width: 24vw;
+            /* height: 56px; */
+            height: 9vh;
+            /* border: 2px solid #FFFFFF; */
+            display: flex;
+            align-items: center;
+
+}
+
+.chatOwner > P {
+font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+    color: #FFFFFF;
+    /* width: 226px; */
+    margin-left: 60px;
+    /* width: 20vw; */
+        /* height: 56px; */
+        padding: 15px;
+        /* height: 7vh; */
+        border-top-left-radius: 20px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+
+
+.chatOwnerAvatarImage {
+    width: 3.3vw;
+    height: 6.9vh;
+    margin: 7px;
+    background: url("F:\Coding PROJECT\Tech Ocenaic Technologies Project\SocialMediaApp\my-app\src\images\followersSrkImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.chatFriend {
+    margin: 0 4px;
+    margin-top: 40px;
+    
+        /* width: 275px; */
+            width: 24vw;
+            /* height: 56px; */
+            height: 9vh;
+            /* border: 2px solid #FFFFFF; */
+            display: flex;
+            align-items: center;
+}
+
+.chatFriend > p {
+    font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: left;
+    background: #FFFFFF;
+        color: #5A5A5A;;
+        /* width: 226px; */
+        margin-right: 60px;
+        /* width: 24vw; */
+        /* height: 56px; */
+        padding: 15px;
+        /* height: 7vh; */
+        border-top-left-radius: 0;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 1px solid #EEEEEE;
+}
+
+.chatFriendAvatarImage {
+    width: 3.3vw;
+    height: 6.9vh;
+    margin: 3px;
+    background: url("F:\Coding PROJECT\Tech Ocenaic Technologies Project\SocialMediaApp\my-app\src\images\followersSrkImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.chatFriendRepeat{
+    margin: 0 4px;
+    margin-top: 20px;
+
+        /* width: 275px; */
+        width: 24vw;
+        /* height: 56px; */
+        height: 9vh;
+        /* border: 2px solid #FFFFFF; */
+        display: flex;
+        align-items: center;
+    
+}
+
+.chatFriendRepeat > p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    background: #FFFFFF;
+    color: #5A5A5A;
+    ;
+    /* width: 226px; */
+    margin-right: 60px;
+    margin-left: 65px;
+    /* width: 24vw; */
+    /* height: 56px; */
+    padding: 15px;
+    /* height: 7vh; */
+    border-top-left-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #EEEEEE;
+}
+
+
+.chatOwnerRepeat {
+    margin: 0 4px;
+        margin-top: 20px;
+    /* width: 275px; */
+    width: 24vw;
+    /* height: 56px; */
+    height: 9vh;
+    /* border: 2px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+
+}
+
+.chatOwnerRepeat > P {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+    color: #FFFFFF;
+    /* width: 226px; */
+    margin-left: 70px;
+        margin-right: 65px;
+
+    /* width: 20vw; */
+    /* height: 56px; */
+    padding: 15px;
+    /* height: 7vh; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.chatmsgsender {
+    display: flex;
+    align-items: center;
+    /* width: 375px; */
+    /* height: 12vh; */
+
+    /* background: greenyellow; */
+
+}
+
+
+.chatWhite-btn {
+    color: #231D25;
+    border-radius: 10px;
+    color: black;
+    margin: 10px -127px 10px 20px;
+    border: 1px solid #EAEAEA;
+    padding-left: 10px;
+
+
+    /* width: 250px; */
+    width: 16vw;
+        height: 8vh;
+        /* height: 60px; */
+background: #FFFFFF;
+}
+
+.chatMenuAvatar {
+    width: 5vw;
+    height: 8vh;
+    /* width: 52px;
+        height: 52px; */
+    /* border: 1px solid goldenrod; */
+    margin-top: -10px;
+
+}
+
+.chatMenuAvatarImageBorder {
+    background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+    ;
+    width: 3.85vw;
+    height: 8vh;
+    /* width: 52px;
+        height: 52px; */
+    box-shadow: 0px 6px 10px 0px #FF833F4D;
+    border: 2px solid #28CD56;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatMenuAvatarImage {
+    width: 2vw;
+    height: 3.8vh;
+    transform: rotateY('angle');
+    margin: auto;
+    background: url("F:\Coding PROJECT\Tech Ocenaic Technologies Project\SocialMediaApp\my-app\src\images\chatSendImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+.chatMenuSection {
+    margin-top: 80px;
+    border-bottom: 1px solid #EEEEEE;
+    width: 100%;
+}
+
+.profileMenubutton {
+    width: 6vw;
+    height: 6vh;
+    /* border: 1px solid yellow; */
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+.profileMenubuttonBorder {
+    width: 3vw;
+    height: 6vh;
+    /* border: 1px solid #EEEEEE; */
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #E8FDED; */
+    color: #585858;
+}
+
+.profileFollowersMenuProfile {
+    width: 24vw;
+    height: 16vh;
+    /* border-bottom: 1px solid #EEEEEE; */
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.profileFollowersMenuName > h1 {
+    /* border: 1px solid black; */
+    margin-left: 250%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #1A1B23;
+
+}
+
+
+.profileMenuAvatarImage {
+    width: 8vw;
+    height: 17vh;
+/* width: 120px; */
+    /* height: 120px; */
+
+    margin: auto;
+    background: url("F:\Coding PROJECT\Tech Ocenaic Technologies Project\SocialMediaApp\my-app\src\images\profileMainAvatarImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profileMenuProfile {
+    width: 24vw;
+    /* height: 19vh; */
+    /* border-bottom: 1px solid #EEEEEE; */
+    /* margin: auto; */
+    /* margin: 25px 19px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    }
+
+.profileMenuAvatar {
+    width: 8vw;
+    height: 17vh;
+margin-left: 30px;
+    /* width: 120px; */
+/* height: 120px; */
+margin-top: 20%;
+    /* border: 1px solid goldenrod; */
+}
+
+
+.profileMenuAvatarImageBorder {
+    width: 8vw;
+    height: 17vh;
+     /* width: 118.5px; */
+/* height: 118.5px; */
+    border: 2px solid #28CD56;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileOnline-icon {
+    margin-right: 12px;
+    margin-bottom: 15px;
+    width: 8px;
+        height: 8px;
+    color: #0F9804;
+
+}
+
+.profileFollowersMenubuttonBorder {
+    width: 9vw;
+    height: 6vh;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 8px 0px #eeeeeeec;
+    border: 1px solid #EEEEEE;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.profileFollowersMenubuttonBorder>p {
+    margin-right:  5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #919191;
+}
+
+.profileFollowersMenuOptions {
+    margin: 10px 5px;
+    width: 24vw;
+    height: 10vh;
+    /* border: 1px solid #EEEEEE; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4px;
+    text-align: left;
+    align-items: center;
+}
+.profileChatMenubutton {
+    /* width: 2.4vw;
+    height: 5vh; */
+    /* border: 1px solid yellow; */
+    margin: 0 5px;
+    margin-top: 4px;
+
+}
+
+.profileChatMenubuttonBorder {
+    /* width: 3vw; */
+    /* height: 6vh; */
+    /* border: 1px solid #EEEEEE; */
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #E8FDED; */
+    color: #0F393A;
+}
+
+.profileFollowersMenuTotalBorder {
+    width: 9vw;
+    height: 6vh;
+    background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+    box-shadow: 0px 5px 8px 0px #28CD5629;
+    border: 1px solid #28CD56;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profileFollowersMenuTotalBorder>p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: white;
+}
+
+.profileGroupMenuStats{
+            width: 24vw;
+            height: 15vh;
+            border: 1px solid black;
+            margin: 25px 22px;
+            display: flex;
+            align-items: center;
+        
+}
+/* .pprofileGroupMenuStatsPost {
+    width: 6.5vw;
+    height: 12.5vh;
+    border: 1px solid green;
+    margin: 0 11px;
+
+} */
+
+/* .profileGroupMenuStatsPostBorder {
+    width: 9vw;
+        height: 23vh;
+            border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #EEEEEE;
+
+} */
+
+.profileGroupMenuAvatarImage {
+    /* width: 135px; */
+        /* height: 166px; */
+    width: 9vw;
+    height: 23vh;
+    /* margin: auto; */
+    background: url("F:\Coding PROJECT\Tech Ocenaic Technologies Project\SocialMediaApp\my-app\src\images\profileGroupImage1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profileMenubuttonSocial{
+    margin-left: 180px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+}
+
+.profileMenubuttonBorderSocial{
+    width: 3vw;
+        height: 6vh;
+        /* border: 1px solid #EEEEEE; */
+        /* border-radius: 50%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background: #E8FDED; */
+        color: #585858;
+
+}
+
+
+.notificationProfileMenubutton {
+    width: 6vw;
+    height: 6vh;
+    /* border: 1px solid yellow; */
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.notificationProfileFollowersMenuName {
+    display: flex;
+    align-items: center;
+}
+
+.notificationProfileFollowersMenuName > h1 {
+    /* border: 1px solid black; */
+    /* margin-left: 250%; */
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #1A1B23;
+        margin: 0px 20px 20px 20px;
+
+}
+
+.notificationmenuAvatar{
+    width: 4.1vw;
+    height: 9vh;
+    margin: 0 20px; 
+}
+
+.notificationMenuTotalBorder {
+    width: 1.6vw;
+    height: 3.5vh;
+    background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+    box-shadow: 0px 5px 8px 0px #28CD5629;
+    border: 1px solid #28CD56;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+.notificationMenuTotalBorder > p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: white;
+}
+
+.notification-span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notification-span > span {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        padding: 30px;
+}
+
+
+#notification-name{ 
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    color: #1D1D20;
+}
+
+#notification-msg{
+    padding: 10px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+color: #676767;
+
+}
+
+#notification-time{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.5px;
+        text-align: left;
+        color: #919191;
+}
+
+#notification-info{
+border: 1px solid #EEEEEE;
+    /* box-shadow: 0px 4px 14px 0px #0000000A; */
+    /* background: #FFFFFF; */
+}
+
+
+.notification-read{
+display: flex;
+justify-content: space-between;
+}
+
+.notification-tick{
+    color: white;
+background: linear-gradient(180deg, #4DD969 0%, #28CD56 100%);
+border: 0;
+font-size: 12px;
+    font-weight: 400;
+    line-height: 16.5px;
+    border-radius: 10px;
+    width: 60px;
+}
+
+
+.notificationFollowersMenuOptions {
+    /* margin: 10px 5px; */
+    /* width: 24vw; */
+    /* height: 10vh; */
+    /* border: 1px solid #EEEEEE; */
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    text-align: left;
+    align-items: center;
+}
+
+
+======================================================================================================
+
+//Button.tsx
+
+import React from 'react'
+import "./style.css"
+interface buttontype{
+  title: string,
+}
+
+const Button = ({title}:buttontype) => {
+  return (
+    <div>
+        <button className="btn">{title}</button>
+    </div>
+  )
+}
+
+export default Button;
+
+
+======================================================================================================
+
+// Chat.tsx
+
+
+import React from "react";
+import "./style.css";
+import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
+import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
+import { Link, useNavigate } from "react-router-dom";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+
+const Chat = () => {
+  // const navigate = useNavigate();
+
+  // const handleNavigate = ()=> {
+  //   navigate("/followers");
+  // };
+
+  return (
+    <div className="container">
+      <div className="followersMenuProfile">
+        <Link to="/followers">
+          <div className="followersButton-back">
+            <div className="arrow-icon">
+              <ArrowBackIcon />
+            </div>
+          </div>
+        </Link>
+
+        <div className="online-icon">
+          <FiberManualRecordIcon />
+        </div>
+        <Link to="/profile" style={{ textDecoration: "none" }}>
+          <div className="chatFollowersMenuName">
+            <div>@tomcruise</div>
+            <p>Last active: 10 sec ago</p>
+          </div>
+        </Link>
+        <div className="chatMenubutton">
+          <div className="chatMenubuttonBorder">
+            <LocalPhoneOutlinedIcon />
+          </div>
+        </div>
+      </div>
+
+      <div className="menuSection"></div>
+
+      <div className="chatUser">
+        <div className="chatOwner">
+          <p>Hey! How are you? It's been a while. How is your travel to UK?</p>
+
+          <div>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <div className="followersMenuAvatar">
+                <div className="chatOwnerAvatarImage"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="chatFriend">
+          <div>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <div className="followersMenuAvatar">
+                <div className="chatFriendAvatarImage"></div>
+              </div>
+            </div>
+          </div>
+          <p>Hey too!</p>
+        </div>
+
+        <div className="chatFriendRepeat">
+          <p>
+            Its great, UK is awesome, espesially London. New job is good so far!
+            How about you?
+          </p>
+        </div>
+
+        <div className="chatOwner">
+          <p>
+            {" "}
+            I'm fine, i'm thinking about new project. I want to open an online
+            store
+          </p>
+
+          <div>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <div className="followersMenuAvatar">
+                <div className="chatOwnerAvatarImage"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="chatOwnerRepeat">
+          <p>
+            But I don't know what to sell. Maybe I will sell stones and water
+          </p>
+        </div>
+
+        <div className="chatFriend">
+          <div>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <div className="followersMenuAvatar">
+                <div className="chatFriendAvatarImage"></div>
+              </div>
+            </div>
+          </div>
+          <p>
+            Yeah it's great idea, you know - everyone needs water, I dont know
+            about stones xD
+          </p>
+        </div>
+      </div>
+
+      <div className="chatMenuSection"></div>
+
+      <div className="chatmsgsender">
+        <div>
+          <div className="secondary-btn">
+            <input
+              className="chatWhite-btn"
+              type="text"
+              placeholder="Say something"
+            />
+          </div>
+        </div>
+
+        <div>
+          <div className="chatMenubutton">
+            <div className="chatMenubuttonBorder">
+              <div className="chatMenuAvatar">
+                <div className="chatMenuAvatarImageBorder">
+                  <div className="chatMenuAvatarImage"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Chat;
+
+
+======================================================================================================
+
+
+Followers.tsx
+
+
+import React from "react";
+import "./style.css";
+import { Link } from "react-router-dom";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+
+const Followers = () => {
+  //   const followersArray = [
+  //     {
+  //       name: "Shah Rukh Khan",
+  //       handle: "@srk",
+  //       status: "Follow",
+  //       url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\followersSrkImage.png",
+  //     },
+  //     {
+  //       name: "Robert Downey Jr.",
+  //       handle: "@rdj",
+  //       status: "Following",
+  //       url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\followersImageAvatar2.png",
+  //     },
+  //     {
+  //       name: "Tom Cruise",
+  //       handle: "@tomcruise",
+  //       status: "Follow",
+  //       url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\followersImageAvatar3.png",
+  //     },
+  //     {
+  //       name: "Elezabeth",
+  //       handle: "@elezabeth",
+  //       status: "Follow",
+  //       url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\followersImageAvatar4.png",
+  //     },
+  //     {
+  //       name: "Kate Winslet",
+  //       handle: "@KateWinslet",
+  //       status: "Follow",
+  //       url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\followersImageAvatar5.png",
+  //     },
+  //     {
+  //       name: "Saoirse Hopper",
+  //       handle: "@saoirsehop",
+  //       status: "Following",
+  //       url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\followersImageAvatar2.png",
+  //     },
+  //     {
+  //       name: "Melina Charlton",
+  //       handle: "@melinacharlton",
+  //       status: "Following",
+  //       url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\followersImageAvatar4.png",
+  //     },
+  //   ];
+
+  return (
+    <div className="container">
+      <div className="followersMenuProfile">
+        <div className="menuAvatar">
+          <Link to="/menu">
+            <div className="followersButton-back">
+              <div className="arrow-icon">
+                <ArrowBackIcon />
+              </div>
+            </div>
+          </Link>
+        </div>
+        <div className="followersMenuName">
+          <h1>Followers(4K)</h1>
+        </div>
+      </div>
+
+      <div className="menuSection"></div>
+
+      <div className="menuSection">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div className="menuOptionLeft">
+              <span>Shah Rukh Khan</span>
+              <p>@srk</p>
+            </div>
+          </div>
+          <div>
+            <div className="followersMenuTotalBorder">
+              <p>Follow</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="menuSection">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div className="menuOptionLeft">
+              <span>Robert Downey Jr.</span>
+              <p>@rdj</p>
+            </div>
+          </div>
+          <div>
+            <div className="followersMenubuttonBorder">
+              <p>Following</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="menuSection">
+        <Link to="/chat" style={{ textDecoration: "none" }}>
+          <div className="followersMenuOptions">
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <div className="followersMenuAvatar">
+                <div className="followersMenuAvatarImage"></div>
+              </div>
+              <div className="menuOptionLeft">
+                <span>Tom Cruise</span>
+                <p>@tomcruise</p>
+              </div>
+            </div>
+            <div>
+              <div className="followersMenuTotalBorder">
+                <p>Follow</p>
+              </div>
+            </div>
+          </div>
+        </Link>
+      </div>
+
+      <div className="menuSection">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div className="menuOptionLeft">
+              <span>Elezabeth</span>
+              <p>@elezabeth</p>
+            </div>
+          </div>
+          {/* <div>
+                 <div className='followersMenuTotalBorder'>
+                    <p>Follow</p>
+                 </div>
+            </div>                               */}
+          <div>
+            <div className="followersMenubuttonBorder">
+              <p>Following</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="menuSection">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div className="menuOptionLeft">
+              <span>Shah Rukh Khan</span>
+              <p>@srk</p>
+            </div>
+          </div>
+          {/* <div>
+                 <div className='followersMenuTotalBorder'>
+                    <p>Follow</p>
+                 </div>
+            </div>                               */}
+          <div>
+            <div className="followersMenubuttonBorder">
+              <p>Following</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="menuSection">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div className="menuOptionLeft">
+              <span>Shah Rukh Khan</span>
+              <p>@srk</p>
+            </div>
+          </div>
+          {/* <div>
+                 <div className='followersMenuTotalBorder'>
+                    <p>Follow</p>
+                 </div>
+            </div>                               */}
+          <div>
+            <div className="followersMenubuttonBorder">
+              <p>Following</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="menuSection">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div className="menuOptionLeft">
+              <span>Shah Rukh Khan</span>
+              <p>@srk</p>
+            </div>
+          </div>
+          {/* <div>
+                 <div className='followersMenuTotalBorder'>
+                    <p>Follow</p>
+                 </div>
+            </div>                               */}
+          <div>
+            <div className="followersMenubuttonBorder">
+              <p>Following</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div>
+        <div>
+            <span>Image</span>
+            <span>
+                <h1>Shah Rukh Khan</h1>
+                <p>@srk</p>
+            </span>
+            <span>
+                <button>follow</button>
+            </span>
+        </div>
+
+        <div>
+            <span>Image</span>
+            <span>
+                <h1>Robert Downey Jr.</h1>
+                <p>@rdj</p>
+            </span>
+            <span>
+                <button>following</button>
+            </span>
+        </div>
+
+        <div>
+            <span>Image</span>
+            <span>
+                <h1>Tom Cruise</h1>
+                <p>@tomcruise</p>
+            </span>
+            <span>
+                <button>follow</button>
+            </span>
+        </div>
+
+        <div>
+            <span>Image</span>
+            <span>
+                <h1>Elezabeth</h1>
+                <p>@elezabeth</p>
+            </span>
+            <span>
+                <button>follow</button>
+            </span>
+        </div>
+
+        <div>
+            <span>Image</span>
+            <span>
+                <h1>Kate Winslet</h1>
+                <p>@KateWinslet</p>
+            </span>
+            <span>
+                <button>follow</button>
+            </span>
+        </div>
+
+        <div>
+            <span>Image</span>
+            <span>
+                <h1>Saoirse Hopper</h1>
+                <p>@saoirsehop</p>
+            </span>
+            <span>
+                <button>following</button>
+            </span>
+        </div>
+
+        <div>
+            <span>Image</span>
+            <span>
+                <h1>Melina Charlton</h1>
+                <p>@melinacharlton</p>
+            </span>
+            <span>
+                <button>following</button>
+            </span>
+        </div>
+
+        </div> */}
+    </div>
+  );
+};
+
+export default Followers;
+
+
+======================================================================================================
+
+//Menu.tsx
+
+
+
+
+import React from 'react'
+import "./style.css"
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import {Link} from "react-router-dom";
+ 
+const Menu = () => {
+  return (
+    <div className='container'>
+        <div className="menuProfile">
+            <div className="menuAvatar">
+                 <div className='menuAvatarImageBorder'>
+                    <div className='menuAvatarImage'></div>
+                 </div>
+            </div>
+            <div className='menuName'>
+                <h1>Morsalin Nur</h1>
+                <p>@morsalin.nur</p>
+            </div>
+             <div className="menubutton">
+                 <div className='menubuttonBorder'>
+                    <KeyboardArrowRightIcon />
+                 </div>
+            </div>
+        </div>
+
+        <div className='menuSection'></div>
+        
+        <div className="menuStats">
+            <div className="menuStatsPost">
+                 <div className='menuStatsPostBorder'>
+                <div style={{fontSize: "25px", fontWeight: "600", color: "#1A1B23"}}>572</div>
+            <div style={{fontSize: "12px", fontWeight: "400", color: "#919191"}}>Post</div>      
+                 </div>
+            </div>
+            
+            <Link to="/followers" style={{textDecoration: "none"}}>
+            <div className="menuStatsPost">
+                 <div className='menuStatsPostBorder'>
+            <div style={{fontSize: "25px", fontWeight: "600", color: "#1A1B23"}}>6.3k</div>
+            <div style={{fontSize: "12px", fontWeight: "400", color: "#919191"}}>Followers</div>       
+                 </div>
+            </div>
+            </Link>
+
+            <div className="menuStatsPost">
+                 <div className='menuStatsPostBorder'>
+            <div style={{fontSize: "25px", fontWeight: "600", color: "#1A1B23"}}>2.5k</div>
+            <div style={{fontSize: "12px", fontWeight: "400", color: "#919191"}}>Following</div>       
+      
+                 </div>
+            </div>
+        </div>
+
+        <div className='menuSection'>
+            <div className='menuOptions'>
+            <div className='menuOptionLeft'>
+                <span>Notification</span>
+            <p>See your recent activity</p>
+            </div>
+            <div>
+                 <div className='menuTotalBorder'>
+                    <p>35</p>
+                 </div>
+            </div>                              
+            <div className="menubutton">
+                 <div className='menubuttonBorder'>
+                    <KeyboardArrowRightIcon />
+                 </div>
+            </div>
+            </div>
+
+              <Link to="/followers" style={{textDecoration: "none"}}>
+            <div className='menuOptions'>
+            <div className='menuOptionLeft'>
+                <span>Friends</span>
+            <p>Friendlist totals</p>
+            </div>
+            <div className="menubutton">
+                 <div className='menubuttonBorder'>
+                    <KeyboardArrowRightIcon />
+                 </div>
+            </div>
+            </div>
+            </Link>
+
+            <div className='menuOptions'>
+            <div className='menuOptionLeft'>
+                <span>Messages</span>
+            <p>Message your friends</p>
+            </div>
+            <div>
+                 <div className='menuTotalBorder'>
+                    <p>2</p>
+                 </div>
+            </div>
+
+            <div className="menubutton">
+                 <div className='menubuttonBorder'>
+                    <KeyboardArrowRightIcon />
+                 </div>
+            </div>
+            </div>
+
+            <div className='menuOptions'>
+            <div className='menuOptionLeft'>
+                <span>Albums</span>
+            <p>Save or post your albums</p>
+            </div>
+            <div className="menubutton">
+                 <div className='menubuttonBorder'>
+                    <KeyboardArrowRightIcon />
+                 </div>
+            </div>
+            </div>
+
+            <div className='menuOptions'>
+            <div className='menuOptionLeft'>
+                <span>Favorites</span>
+            <p>Friends you love</p>
+            </div>
+            <div className="menubutton">
+                 <div className='menubuttonBorder'>
+                    <KeyboardArrowRightIcon />
+                 </div>
+            </div>
+            </div>
+        </div>
+            <div className='menuOptions'>
+            <div className='menuOptionLeft'>
+                <span>Privacy Policy</span>
+            <p>Protect your privacy</p>
+            </div>
+            <div className="menubutton">
+                 <div className='menubuttonBorder'>
+                    <KeyboardArrowRightIcon />
+                 </div>
+            </div>
+            </div>
+  <div className='secondary-btn'>
+          <button className='white-logoutbtn'>Log out</button>
+          </div>
+    </div>
+  )
+}
+
+export default Menu;
+
+
+======================================================================================================
+
+// Notification.tsx
+
+
+import React from "react";
+import "./style.css";
+import { Link } from "react-router-dom";
+import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
+import DoneOutlinedIcon from "@mui/icons-material/DoneOutlined";
+
+const Notification = () => {
+  // const notificationArray = [
+  //   {
+  //     name: "Aarush Galloway",
+  //     noti: "Shared your post",
+  //     time: "52 min ago",
+  //     url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\notificationImageAvatar1.png",
+  //   },
+  //   {
+  //     name: "Arthur Aguilar",
+  //     noti: "Liked your photo",
+  //     time: "2 h ago",
+  //     url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\notificationImageAvatar2.png",
+  //   },
+  //   {
+  //     name: "Addie Barrera",
+  //     noti: "Commented on your post",
+  //     time: "3 h ago",
+  //     url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\notificationImageAvatar3.png",
+  //   },
+  //   {
+  //     name: "Anne Southern",
+  //     noti: "added photo in group Awesome UI Kit",
+  //     time: "4 h ago",
+  //     url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\notificationImageAvatar4.png",
+  //   },
+  //   {
+  //     name: "Brenden Ramirez",
+  //     noti: "Liked your post",
+  //     time: "5 h ago",
+  //     url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\notificationImageAvatar5.png",
+  //   },
+  //   {
+  //     name: "Braxx Stott",
+  //     noti: "Liked your comments",
+  //     time: "6 h ago",
+  //     url: "F:Coding PROJECTTech Ocenaic Technologies ProjectSocialMediaAppmy-appsrcimages\notificationImageAvatar6.png",
+  //   },
+  // ];
+
+  return (
+    <div className="container">
+      <div className="profileFollowersMenuProfile">
+        <Link to="/profile">
+          <div className="notificationmenuAvatar">
+            <div className="menuAvatarImageBorder">
+              <div className="menuAvatarImage"></div>
+            </div>
+          </div>
+        </Link>
+
+        <div className="notificationProfileMenubutton">
+          <div className="profileMenubuttonBorder">
+            <SearchOutlinedIcon />
+          </div>
+        </div>
+      </div>
+      <div className="notificationProfileFollowersMenuName">
+        <h1>Notification</h1>
+        <div>
+          <div className="notificationMenuTotalBorder">
+            <p>35</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="menuSection"></div>
+
+      <div className="notification-span">
+        <span style={{ color: "#B4B4B4" }}>Show all</span>
+        <span style={{ color: "#8B8B8B" }}>Mark all us read</span>
+      </div>
+
+      <div id="notification-info">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div>
+              <span id="notification-name">Shah Rukh Khan</span>
+              <span id="notification-msg">Shared your post</span>
+              <p id="notification-time">52 min ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="notification-read">
+        <div id="notification-info">
+          <div className="notificationFollowersMenuOptions">
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <div className="followersMenuAvatar">
+                <div className="followersMenuAvatarImage"></div>
+              </div>
+              <div>
+                <span id="notification-name">Shah Rukh Khan</span>
+                <span id="notification-msg">Shared your post</span>
+                <p id="notification-time">52 min ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button className="notification-tick">
+          <DoneOutlinedIcon />
+          <div>Read</div>
+        </button>
+      </div>
+
+      <div id="notification-info">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div>
+              <span id="notification-name">Shah Rukh Khan</span>
+              <span id="notification-msg">Shared your post</span>
+              <p id="notification-time">52 min ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="notification-info">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div>
+              <span id="notification-name">Shah Rukh Khan</span>
+              <span id="notification-msg">Shared your post</span>
+              <p id="notification-time">52 min ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="notification-info">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div>
+              <span id="notification-name">Shah Rukh Khan</span>
+              <span id="notification-msg">Shared your post</span>
+              <p id="notification-time">52 min ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="notification-info">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div>
+              <span id="notification-name">Shah Rukh Khan</span>
+              <span id="notification-msg">Shared your post</span>
+              <p id="notification-time">52 min ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="notification-info">
+        <div className="followersMenuOptions">
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="followersMenuAvatar">
+              <div className="followersMenuAvatarImage"></div>
+            </div>
+            <div>
+              <span id="notification-name">Shah Rukh Khan</span>
+              <span id="notification-msg">Shared your post</span>
+              <p id="notification-time">52 min ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Notification;
+
+
+======================================================================================================
+
+// onboarding.tsx
+
+
+import React from "react";
+import "./style.css"
+import Button from "./Button";
+import {Link} from "react-router-dom";
+
+const Onboarding = () => {
+    
+    return (
+        <div className="container">
+        <div className="image-border">
+            <div className="background"></div>
+            </div>
+            <div className="onboarding-heading">
+                <h1>Let's connect with each other</h1>
+            </div>
+            <div className="onboarding-paragraph">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+            <div className="slider">
+                _____
+            </div>
+            <Link to="/signIn"><Button title={"Get started"} /></Link>
+        </div>
+    )
+}
+
+export default Onboarding;
+
+
+======================================================================================================
+
+
+// Profile.tsx
+
+
+import React from "react";
+import "./style.css";
+import { Link } from "react-router-dom";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
+import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
+import SmsOutlinedIcon from "@mui/icons-material/SmsOutlined";
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import PinterestIcon from "@mui/icons-material/Pinterest";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
+
+const Profile = () => {
+  return (
+    <div className="container">
+      <div className="profileFollowersMenuProfile">
+        <Link to="/chat">
+          <div className="followersButton-back">
+            <div className="arrow-icon">
+              <ArrowBackIcon />
+            </div>
+          </div>
+        </Link>
+
+        <div className="profileFollowersMenuName">
+          <h1>Profile</h1>
+        </div>
+
+        <div className="profileMenubutton">
+          <div className="profileMenubuttonBorder">
+            <FavoriteBorderOutlinedIcon />
+          </div>
+          <div className="profileMenubuttonBorder">
+            <SearchOutlinedIcon />
+          </div>
+        </div>
+      </div>
+
+      <div className="menuSection"></div>
+
+      <div className="profileMenuProfile">
+        <div className="profileMenuAvatar">
+          <div className="profileMenuAvatarImageBorder">
+            <div className="profileMenuAvatarImage"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="chatFollowersMenuName">
+        <div>Tom Cruise</div>
+        <p>@tomcruise</p>
+      </div>
+
+      <div className="profileMenubuttonSocial">
+        <div className="profileMenubuttonBorderSocial">
+          <FacebookOutlinedIcon
+            style={{ width: "40px", height: "30px", color: "#1877F2" }}
+          />
+          <InstagramIcon
+            style={{
+              width: "40px",
+              height: "30px",
+              color: "#E1306C",
+            }}
+          />
+          <PinterestIcon
+            style={{ width: "40px", height: "30px", color: "E60023" }}
+          />
+          <TwitterIcon
+            style={{ width: "40px", height: "30px", color: "#1DA1F2" }}
+          />
+        </div>
+      </div>
+
+      <div className="profileFollowersMenuOptions">
+        <Link to="/notification" style={{ textDecoration: "none" }}>
+          <div>
+            <div className="profileFollowersMenubuttonBorder">
+              <div className="profileOnline-icon">
+                <FiberManualRecordIcon />
+              </div>
+              <div className="profileChatMenubutton">
+                <div className="profileChatMenubuttonBorder">
+                  <SmsOutlinedIcon />
+                </div>
+              </div>
+              <p>Message</p>
+            </div>
+          </div>
+        </Link>
+
+        <div>
+          <div className="profileFollowersMenuTotalBorder">
+            <p>Follow</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="menuStats">
+        <div className="menuStatsPost">
+          <div className="menuStatsPostBorder">
+            <div
+              style={{ fontSize: "25px", fontWeight: "600", color: "#1A1B23" }}
+            >
+              6.3k
+            </div>
+            <div
+              style={{ fontSize: "12px", fontWeight: "400", color: "#919191" }}
+            >
+              Followers
+            </div>
+          </div>
+        </div>
+
+        {/* <Link to="/followers" style={{ textDecoration: "none" }}> */}
+        <div className="menuStatsPost">
+          <div className="menuStatsPostBorder">
+            <div
+              style={{
+                fontSize: "25px",
+                fontWeight: "600",
+                color: "#1A1B23",
+              }}
+            >
+              572
+            </div>
+            <div
+              style={{
+                fontSize: "12px",
+                fontWeight: "400",
+                color: "#919191",
+              }}
+            >
+              Post
+            </div>
+          </div>
+        </div>
+        {/* </Link> */}
+
+        <div className="menuStatsPost">
+          <div className="menuStatsPostBorder">
+            <div
+              style={{ fontSize: "25px", fontWeight: "600", color: "#1A1B23" }}
+            >
+              2.5k
+            </div>
+            <div
+              style={{ fontSize: "12px", fontWeight: "400", color: "#919191" }}
+            >
+              Following
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="menuSection"></div>
+
+      <div>
+        <div className="profileGroupMenuStats">
+          <div className="profileGroupMenuStatsPost">
+            <div className="profileGroupMenuStatsPostBorder">
+              <div className="profileGroupMenuAvatarImage"></div>
+            </div>
+          </div>
+
+          {/* <Link to="/followers" style={{ textDecoration: "none" }}> */}
+          {/* <div className="profileMenuStatsPost">
+            <div className="profileMenuStatsPostBorder">
+              <div className="profileGroupMenuAvatarImage"></div>
+            </div>
+          </div> */}
+          {/* </Link> */}
+
+          {/* <div className="profileMenuStatsPost">
+            <div className="profileMenuStatsPostBorder">
+              <div className="profileGroupMenuAvatarImage"></div>
+            </div>
+          </div> */}
+        </div>
+
+        <div>hello</div>
+      </div>
+    </div>
+  );
+};
+
+export default Profile;
+
+
+======================================================================================================
+
+
+
+---------------------------------------------------
+
+//sign in page
+
+.p-signIn {
+    color: #DDDDDD;
+    /* margin: 0; */
+    margin: 5px 0px;
+}
+
+.white-btn {
+    color: #231D25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 325px;
+    height: 58px;
+    opacity: 0px;
+    border: 0;
+    border-radius: 5px;
+    color: black;
+    padding: 2px;
+    /* margin: auto; */
+    margin: 5px 10px;
+    border: 1px solid #EEEEEE;
+}
+
+
+// menu
+
+
+.menuAvatarImageBorder {
+    width: 57px;
+    height: 60px;
+    border: 2px solid #28CD56;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuName {
+       display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+
+.menuName > div {
+      font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.menuName > div {
+      /* margin-left: 20px; */
+    font-weight: 400;
+    line-height: 18px;
+    /* text-align: left; */
+    color: #919191;
+    font-size: 12px;
+}
+
+
+.menuProfile {
+    width: 300px;
+    height: 16vh;
+    border-bottom: 1px solid #EEEEEE;
+    /* margin: 25px 19px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuAvatar {
+    /* width: 40px; */
+    /* height: 9vh; */
+    /* border: 1px solid goldenrod; */
+}
+
+.menuAvatarImageBorder {
+    width: 58px;
+    height: 60px;
+    border: 2px solid #28CD56;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuAvatarImage {
+    width: 56px;
+    height: 56px;
+    background: url(data:image/png;base64,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);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.menubuttonBorder {
+    width: 23px;
+    height: 23px;
+    border: 1px solid #EEEEEE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #919191;
+}
+
+.menubutton {
+    /* width: 2.4vw; */
+    /* height: 5vh; */
+    /* border: 1px solid yellow; */
+}
+
+
+.menuStats {
+   /* width: 300px; */
+    /* height: 12.5vh; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuStatsPost {
+    width: 76px;
+    height: 12.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //margin: 0 8px;
+    border: 1px solid #EEEEEE;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+================================================================================================
+
+// SignIn.tsx
+
+import React from "react";
+import "./style.css";
+import Button from "./Button";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import GoogleIcon from "@mui/icons-material/Google";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import { Link } from "react-router-dom";
+
+const SignIn = () => {
+  return (
+    <div className="container">
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "flex-start",
+          width: "100%",
+          height: "auto",
+          margin: "0 0 0 30px",
+        }}
+      >
+        <Link to="/">
+          <div className="Button-back">
+            <div className="arrow-icon">
+              <ArrowBackIcon />
+            </div>
+          </div>
+        </Link>
+      </div>
+
+      <div className="signInHeading">
+        <h1>Hello Again!</h1>
+        <p className="signInline">Sign in to your account</p>
+      </div>
+      <form className="signInForm">
+        <input
+          className="signInInput1"
+          type="email"
+          name="email"
+          placeholder="Email address"
+        />
+
+        <input
+          className="signInInput2"
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+        />
+        <h5>Forgot your password?</h5>
+      </form>
+      <div>
+        <Link to="/menu">
+          <Button title={"Sign in"} />
+        </Link>
+      </div>
+      <p className="p-signIn">
+        ---------------------- <p className="para-signIn"> Or with </p>{" "}
+        ----------------------
+      </p>
+
+      <div className="secondary-btn">
+        <button className="white-btn">
+          <GoogleIcon style={{ marginRight: "4px" }} />
+          Sign in with Google
+        </button>
+      </div>
+      <div className="secondary-btn">
+        <button className="white-btn">
+          <TwitterIcon style={{ marginRight: "4px" }} />
+          Sign in with Twitter
+        </button>
+      </div>
+      <p className="p-signUp">
+        Don't have account? Let's <a>Sign up</a>
+      </p>
+    </div>
+  );
+};
+
+export default SignIn;
+
+//file:///C:/Users/saurav%20sharma/Downloads/Task%20frontend%20developer.pdf
+// https://www.figma.com/design/wHXneI09mGwFGwAfC3NAeC/Social-Media-App?node-id=1-22&t=UhsgamRWsEkYeND2-0
+
